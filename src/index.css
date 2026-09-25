@@ -1,0 +1,36 @@
+/* 1. Define your downloaded fonts */
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('fonts/noto-serif-kr-latin-200-normal.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif KR';
+  src: url('fonts/noto-serif-kr-latin-700-normal.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Your modified global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Applied your new custom font with a fallback */
+  font-family: 'Noto Serif KR', sans-serif;
+  font-weight: 200; /* Sets your extra-light 200 weight as the default */
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* 3. Make sure headings or bold text automatically use your 700 weight */
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: 700;
+}

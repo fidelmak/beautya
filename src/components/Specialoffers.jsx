@@ -1,6 +1,6 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
-import Img3 from "@/assets/Img3.png";
+import Img3 from "@/assets/img3.png";
 
 function SpecialOffers() {
     const width = useWindowWidth();

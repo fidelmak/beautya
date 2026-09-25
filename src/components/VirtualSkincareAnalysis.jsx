@@ -1,5 +1,7 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
+import Img4 from "@/assets/Img4.png";
+import Qr from "@/assets/qr.png";
 
 function VirtualSkincareAnalysis() {
   const width = useWindowWidth();
@@ -44,7 +46,7 @@ function VirtualSkincareAnalysis() {
           </div>
 
           <img
-            src="src/assets/qr.png"
+            src={Qr}
             alt="Scan to start virtual skincare analysis"
             width={110}
             height={110}
@@ -55,7 +57,7 @@ function VirtualSkincareAnalysis() {
 
       {!isMobile && (
         <img
-          src="src/assets/img4.png"
+          src={Img4}
           alt="Models with diverse skin tones"
           style={{ width: "55%", objectFit: "cover" }}
         />

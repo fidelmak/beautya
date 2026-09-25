@@ -3,6 +3,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import Logo from "@/assets/logo.png";
 
 function MobileHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ function MobileHeader() {
 
         <img
           style={{ objectFit: "contain" }}
-          src="src/assets/logo.png"
+          src={Logo}
           alt="Logo"
           width={60}
           height={60}
@@ -123,7 +124,7 @@ const styles = {
     height: "10%",
     width: "100%",
     justifyContent: "space-between",
-    padding: "0 50px",
+    padding: "0 20px",
   },
 };
 export default MobileHeader;

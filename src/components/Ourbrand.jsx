@@ -1,5 +1,6 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
+import Img2 from "@/assets/img2.png";
 
 function OurBrand() {
     const width = useWindowWidth();
@@ -32,7 +33,7 @@ function OurBrand() {
 
             {!isMobile && (
                 <img
-                    src="src/assets/img2.png"
+                    src={Img2}
                     alt="Beautya brand models"
                     style={{ width: "55%", objectFit: "cover" }}
                 />

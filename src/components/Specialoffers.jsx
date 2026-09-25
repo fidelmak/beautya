@@ -1,5 +1,6 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
+import Img3 from "@/assets/Img3.png";
 
 function SpecialOffers() {
     const width = useWindowWidth();
@@ -21,7 +22,7 @@ function SpecialOffers() {
                 }}
             >
                 <img
-                    src="src/assets/img3.png"
+                    src={Img3}
                     alt="Save up to 50% off"
                     style={{
                         width: "100%",

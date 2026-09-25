@@ -1,9 +1,10 @@
 import useWindowWidth from "./Usewindowwidth";
+import Img5 from "@/assets/img5.png";
 
 const categories = [
-    { label: "Women Make Up", image: "src/assets/img5.png" },
-    { label: "Women Skincare", image: "src/assets/img5.png" },
-    { label: "Gifts & Sets", image: "src/assets/img5.png" },
+    { label: "Women Make Up", image: Img5 },
+    { label: "Women Skincare", image: Img5 },
+    { label: "Gifts & Sets", image: Img5 },
 ];
 
 function ProductCategories() {

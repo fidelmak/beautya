@@ -5,6 +5,7 @@ import {
     faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import useWindowWidth from "./Usewindowwidth";
+import Img5 from "@/assets/img5.png";
 
 const allProducts = [
     {
@@ -12,28 +13,28 @@ const allProducts = [
         description:
             "Plumping Gloss - Instant And Long-Term Volume Effect - 24h Hydration",
         price: "$76.00",
-        image: "src/assets/img5.png",
+        image: Img5,
     },
     {
         name: "Beautya Capture Total Dreamskin Care & Perfect",
         description:
             "Plumping Gloss - Instant And Long-Term Volume Effect - 24h Hydration",
         price: "$76.00",
-        image: "src/assets/img5.png",
+        image: Img5,
     },
     {
         name: "Beautya Capture Total Dreamskin Care & Perfect",
         description:
             "Plumping Gloss - Instant And Long-Term Volume Effect - 24h Hydration",
         price: "$76.00",
-        image: "src/assets/img5.png",
+        image: Img5,
     },
     {
         name: "Beautya Capture Total Dreamskin Care & Perfect",
         description:
             "Plumping Gloss - Instant And Long-Term Volume Effect - 24h Hydration",
         price: "$76.00",
-        image: "src/assets/img5.png",
+        image: Img5,
     },
 ];
 

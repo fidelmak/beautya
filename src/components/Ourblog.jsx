@@ -1,4 +1,5 @@
 import useWindowWidth from "./Usewindowwidth";
+import Img1 from "@/assets/img1.png";
 
 const posts = [
     {
@@ -8,7 +9,7 @@ const posts = [
         date: "Jan 20, 2021",
         excerpt:
             "Many People Find It Difficult To Get Clear Skin. The Methods For Getting Clear Skin Will Vary...",
-        image: "src/assets/img1.png",
+        image: Img1,
     },
     {
         title: "How to get clear skin fast",
@@ -17,7 +18,7 @@ const posts = [
         date: "Jan 20, 2021",
         excerpt:
             "Many People Find It Difficult To Get Clear Skin. The Methods For Getting Clear Skin Will Vary...",
-        image: "src/assets/img1.png",
+        image: Img1,
     },
     {
         title: "How to get clear skin fast",
@@ -26,7 +27,7 @@ const posts = [
         date: "Jan 20, 2021",
         excerpt:
             "Many People Find It Difficult To Get Clear Skin. The Methods For Getting Clear Skin Will Vary...",
-        image: "src/assets/img1.png",
+        image: Img1,
     },
 ];
 

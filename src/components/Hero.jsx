@@ -1,5 +1,6 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
+import HeroImage from "@/assets/heroimage.png";
 
 function Hero() {
     const width = useWindowWidth();
@@ -52,7 +53,7 @@ const styles = {
         width: "100%",
         backgroundImage: `
       linear-gradient(rgba(1, 0, 0, 0.56), rgba(1, 0, 0, 0.49)),
-      url("/src/assets/heroimage.png")
+      url(${HeroImage})
     `,
         backgroundSize: "cover",
         backgroundPosition: "center",

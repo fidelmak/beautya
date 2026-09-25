@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-
+import logo from "src/assets/logo.png";
 function Header() {
   return (
     <div style={styles.container}>
       <img
         style={{ objectFit: "contain" }}
-        src="src/assets/logo.png"
+        src={logo}
         alt="Logo"
         width={60}
         height={60}
@@ -17,13 +17,13 @@ function Header() {
           Women Make up
         </a>
         <a href="" style={styles.link}>
-          Women Skin Care{" "}
+          Women Skin Care
         </a>
         <a href="" style={styles.link}>
           Gift & Sets
         </a>
         <a href="" style={styles.link}>
-          Branches{" "}
+          Branches
         </a>
         <a href="" style={styles.link}>
           Our Brand

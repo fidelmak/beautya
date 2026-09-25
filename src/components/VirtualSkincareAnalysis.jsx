@@ -1,6 +1,6 @@
 import Button from "./Button";
 import useWindowWidth from "./Usewindowwidth";
-import Img4 from "@/assets/Img4.png";
+import Img4 from "@/assets/img4.png";
 import Qr from "@/assets/qr.png";
 
 function VirtualSkincareAnalysis() {

@@ -15,7 +15,10 @@ function MobileHeader() {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           style={styles.menuButton}
         >
-          <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+          <FontAwesomeIcon
+            icon={isMenuOpen ? faXmark : faBars}
+            color={"black"}
+          />
         </button>
 
         {/* Dropdown Menu */}

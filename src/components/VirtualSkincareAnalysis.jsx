@@ -1,5 +1,5 @@
 import Button from "./Button";
-import useWindowWidth from "./useWindowWidth";
+import useWindowWidth from "./Usewindowwidth";
 
 function VirtualSkincareAnalysis() {
   const width = useWindowWidth();

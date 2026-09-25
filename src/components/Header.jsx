@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import logo from "src/assets/logo.png";
+import logo from "@/assets/logo.png";
 function Header() {
   return (
     <div style={styles.container}>
